@@ -1,0 +1,23 @@
+<div ng-controller="ShellCtrl" class="main-shell">
+  <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
+    <md-content layout-padding>
+
+    </md-content>
+  </md-sidenav>
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <md-button ng-click="toggleLeft()" class="md-icon-button" aria-label="Settings">
+        <md-icon md-svg-icon="assets/icons/menu.svg"></md-icon>
+      </md-button>
+      <h2>
+          <span>commonity</span>
+        </h2>
+      <span flex=""></span>
+      <md-menu>
+        <md-button aria-label="Open phone interactions menu" class="md-icon-button" ng-click="openMenu($mdOpenMenu, $event)">
+          <md-icon md-menu-origin md-svg-icon="assets/icons/dots-vertical.svg"></md-icon>
+        </md-button>
+      </md-menu>
+    </div>
+  </md-toolbar>
+</div>
