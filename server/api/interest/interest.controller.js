@@ -22,17 +22,46 @@ exports.show = function(req, res) {
 };
 
 
+
+
+
+/*exports.getPersonNonInterest = function (req, res) {
+  var personInterest = [];
+  PersonInterest.find({personId: req.params.id}, {interestId: 1, _id: 0}).populate().exec(function (err, result) {
+    for (var i = 0; i < result.length; i++) {
+      personInterest.push(result[i].interestId);
+    }
+    Interest.find({_id: {$nin: personInterest}}, function (err, result2) {
+      return res.json(result2);
+    })
+  });
+};*/
+
+/*exports.getPersonNonInterest = function (req,res) {
+ var personInterest = [];
+ PersonInterest.find({personId : req.params.id }, { interestId: 1, _id: 0 }).populate().exec(function(err, result) {
+ for(var i = 0; i < result.length; i++) {
+ personInterest.push(result[i].interestId);
+ }
+ Interest.find({ _id : { $nin : personInterest}}, function (err, result2) {
+ return res.json(result2);
+ })
+ });
+ };*/
+
 exports.getPersonInterest = function (req, res) {
   var personInterest = [];
   PersonInterest.find({personId: req.params.id}, {interestId: 1, _id: 0}, function (err, result) {
     for (var i = 0; i < result.length; i++) {
       personInterest.push(result[i].interestId);
     }
-    Interest.find({_id: {$in: personInterest}}, function (err,result2) {
+    Interest.find({_id: {$in: personInterest}}, function (err, result2) {
       return res.json(result2);
-    });
+    })
   });
 };
+
+
 
 exports.getPersonNonInterest = function (req, res) {
   var personInterest = [];

@@ -26,6 +26,7 @@ module.exports = function(app) {
   app.use('/api/settings', require('./api/setting'));
   app.use('/api/requests', require('./api/request'));
   app.use('/api/persons', require('./api/person'));
+  app.use('/api/persons/getPersonFriendByInterestOfset', require('./api/person'));
   app.use('/api/messages', require('./api/message'));
   app.use('/api/languages', require('./api/language'));
   app.use('/api/languages/getPersonLanguages', require('./api/language'));

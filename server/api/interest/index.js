@@ -13,6 +13,6 @@ router.patch('/:id', controller.update);
 router.delete('/:id', controller.destroy);
 router.get('/getPersonNonInterest/Non/:id',controller.getPersonNonInterest);
 router.get('/getPersonInterest/:id',controller.getPersonInterest);
- router.get('/getPerson/Interest/Count/:id',controller.getPersonInterestCount);
+router.get('/getPerson/Interest/Count/:id',controller.getPersonInterestCount);
 
 module.exports = router;
