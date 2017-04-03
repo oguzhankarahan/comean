@@ -1,17 +1,37 @@
 {
+  "main": "index.html",
   "name": "lookin2me",
-  "version": "0.0.2",
-  "author": "Oguzhan Colak <oguzhan.colak@hotmail.com>",
-  "manifestUrl": "https://github.com/oguzhancolak/comean/blob/master/package.json",
-  "packages": {
-    "mac": {
-      "url": "https://doc-0o-2k-docs.googleusercontent.com/docs/securesc/shk7a6p7366s4jhj2652vukj2n435cj1/pc3d1aghkka64v7sbbtpv78apnki67bp/1491199200000/15704549851004135485/15704549851004135485/0BxiOX3er0yJ_b1F3MlhhNnFBRUk?e=download&nonce=k9ar91ridq2p8&user=15704549851004135485&hash=vudmi45u48pnna03e99ok8p667a35sa9"
-    },
-    "win": {
-      "url": "https://doc-0o-2k-docs.googleusercontent.com/docs/securesc/shk7a6p7366s4jhj2652vukj2n435cj1/pc3d1aghkka64v7sbbtpv78apnki67bp/1491199200000/15704549851004135485/15704549851004135485/0BxiOX3er0yJ_b1F3MlhhNnFBRUk?e=download&nonce=k9ar91ridq2p8&user=15704549851004135485&hash=vudmi45u48pnna03e99ok8p667a35sa9"
-    },
-    "linux32": {
-      "url": "https://doc-0o-2k-docs.googleusercontent.com/docs/securesc/shk7a6p7366s4jhj2652vukj2n435cj1/pc3d1aghkka64v7sbbtpv78apnki67bp/1491199200000/15704549851004135485/15704549851004135485/0BxiOX3er0yJ_b1F3MlhhNnFBRUk?e=download&nonce=k9ar91ridq2p8&user=15704549851004135485&hash=vudmi45u48pnna03e99ok8p667a35sa9"
+  "description": "Lookin2.me - Finans Platformu",
+  "version": "0.0.1",
+  "keywords": [ "demo", "NW.js" ],
+  "window": {
+    "title": "Lookin2.me - Finans Platformu",
+    "icon": "link.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 905,
+    "height": 660,
+    "position": "center",
+    "min_width": 905,
+    "min_height": 660
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "deck":"latest"
+  },
+    "author": "Oguzhan Colak <oguzhan.colak@hotmail.com>",
+    "manifestUrl": "https://github.com/oguzhancolak/comean/blob/master/package.json",
+    "packages": {
+        "mac": {
+            "url": "https://doc-0o-2k-docs.googleusercontent.com/docs/securesc/shk7a6p7366s4jhj2652vukj2n435cj1/pc3d1aghkka64v7sbbtpv78apnki67bp/1491199200000/15704549851004135485/15704549851004135485/0BxiOX3er0yJ_b1F3MlhhNnFBRUk?e=download&nonce=k9ar91ridq2p8&user=15704549851004135485&hash=vudmi45u48pnna03e99ok8p667a35sa9"
+        },
+        "win": {
+            "url": "https://doc-0o-2k-docs.googleusercontent.com/docs/securesc/shk7a6p7366s4jhj2652vukj2n435cj1/pc3d1aghkka64v7sbbtpv78apnki67bp/1491199200000/15704549851004135485/15704549851004135485/0BxiOX3er0yJ_b1F3MlhhNnFBRUk?e=download&nonce=k9ar91ridq2p8&user=15704549851004135485&hash=vudmi45u48pnna03e99ok8p667a35sa9"
+        },
+        "linux32": {
+            "url": "https://doc-0o-2k-docs.googleusercontent.com/docs/securesc/shk7a6p7366s4jhj2652vukj2n435cj1/pc3d1aghkka64v7sbbtpv78apnki67bp/1491199200000/15704549851004135485/15704549851004135485/0BxiOX3er0yJ_b1F3MlhhNnFBRUk?e=download&nonce=k9ar91ridq2p8&user=15704549851004135485&hash=vudmi45u48pnna03e99ok8p667a35sa9"
+        }
     }
-  }
 }
